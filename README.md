@@ -32,7 +32,7 @@ Designed for full-stack architecture with machine learning.
 3. Install all the necessary dependencies with `python -m pip install -r requirements.txt` or simply `pip install -r requirements.txt`.
 4. Run `python -m flask --app api.index run --debug`.
 
-**NOTE**: Always run `python -m pip freeze > requirements.txt` or simply `pip freeze > requirements.txt` for whenever installing a new package or library.
+**NOTE**: Always run `python -m pip freeze > requirements.txt` or simply `pip freeze > requirements.txt` whenever installing a new package or library.
 
 ---
 
