@@ -1,11 +1,11 @@
 # React + ASP NET + Flask (AI) Template
 Designed for full-stack architecture with machine learning.
 
-## Previews
+### Previews
 ![Output Preview](preview1.png)
 ![IDE Preview](preview2.png)
 
-#### Tech Stacks:
+### Tech Stacks:
 - **Vite React (Typescript)**
 - **Tailwind CSS**
 - **ASP.NET Core Web API**
@@ -15,7 +15,7 @@ Designed for full-stack architecture with machine learning.
 
 ---
 
-## Prerequisites
+### Prerequisites
 - NodeJS
 - .NET Core
 - Python *(Recommended version: 3.12)*
@@ -33,8 +33,6 @@ Designed for full-stack architecture with machine learning.
 4. Run `python -m flask --app api.index run --debug`.
 
 **NOTE**: Always run `python -m pip freeze > requirements.txt` or simply `pip freeze > requirements.txt` whenever installing a new package or library.
-
----
 
 ### Setup inside `backend` folder:
 1. Create `appsettings.Development.json` *(or `appsettings.json` for production)* file that contains:
@@ -73,8 +71,6 @@ Designed for full-stack architecture with machine learning.
     ```
 4. Run `dotnet watch run` to run your backend.
 
----
-
 ### Setup inside `frontend` folder:
 1.  Create an `.env` file that contains:
     ```env
@@ -83,49 +79,6 @@ Designed for full-stack architecture with machine learning.
     **NOTE**: *Change `VITE_API_URL` into the actual backend host without trailing slash.*
 2. Run `npm install` to install necessary packages.
 3. Run `npm run dev` to test your development frontend.
-
----
-
-### AI Service Dependencies & Configuration
-The following is a list of installed dependencies and configuration settings used in this project.
-You don’t need to install anything manually, as all dependencies are already managed through `requirements.txt`.
-This section is provided for reference only, to give you insight into how the project was set up.
-
-### AI Service Dependencies
-- `flask`
-
-### Backend Dependencies & Configuration
-The following is a list of installed dependencies and configuration settings used in this project.
-You don’t need to install anything manually, as all dependencies are already managed through `project-name.csproj`.
-This section is provided for reference only, to give you insight into how the project was set up.
-
-### Backend Dependencies:
-*(Note: Some dependencies are intentionally using old versions for stable releases)*
-- `Microsoft.EntityFrameworkCore 8.0.4`
-- `Microsoft.EntityFrameworkCore.Sqlite 8.0.4`
-- `Microsoft.EntityFrameworkCore.Tools 8.0.4`
-    
-### Frontend Dependencies & Configuration
-The following is a list of installed dependencies and configuration settings used in this project.
-You don’t need to install anything manually, as all dependencies are already managed through `package.json` (both frontend and backend).
-This section is provided for reference only, to give you insight into how the project was set up.
-
-### Frontend Dependencies
-- `tailwindcss`
-- `@tailwindcss/vite`
-- `axios`
-
-### Frontend Configuration
-- Update `vite.config.ts`:
-  ```ts
-  import tailwindcss from '@tailwindcss/vite'
-
-  export default defineConfig({
-    plugins: [
-      tailwindcss(),
-    ],
-  })
-  ```
 
 ---
 
